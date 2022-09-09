@@ -4,6 +4,7 @@ import { GlobalStyles } from '../styles/GlobalStyles';
 
 import { Header } from '../components/Header';
 import { Cover } from '../components/Cover';
+import { About } from '../components/About';
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,9 @@ const Home: NextPage = () => {
         <Cover>
           <Header />
         </Cover>
+        <AppContainer>
+          <About />
+        </AppContainer>
     </>
   )
 }

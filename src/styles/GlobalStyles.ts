@@ -1,6 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+    :root {
+        --black: hsl(0, 0%, 0%);
+        --dark-gray: hsl(0, 0%, 55%);
+        --very-dark-gray: hsl(0, 0%, 41%);
+    }
+
+
     * {
         padding: 0;
         margin: 0;
@@ -12,12 +19,12 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
         font-family: 'Alata', sans-serif;
-        /* font-family: 'Alata', sans-serif; */
+        /* font-family: 'Josefin Sans', sans-serif; */
     }
     
-    h1, h2, h3, h4, p {
+    /* h1, h2, h3, h4, p {
         line-height: 150%;
-    }
+    } */
 
     button {
         cursor: pointer;

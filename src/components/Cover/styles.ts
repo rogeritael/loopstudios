@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
     width: 100%;
     height: 38rem;
+    //1080px
     padding: 2rem 0;
 
     background-image: url('/image-hero.jpg');
