@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.section`
     width: 100%;
     height: 38rem;
-    //1080px
     padding: 2rem 0;
 
     background-image: url('/image-hero.jpg');
@@ -24,5 +23,19 @@ export const Container = styled.section`
         line-height: 100%;
         font-size: 4rem;
         color:  #fff;
+    }
+
+    @media (max-width: 530px){
+        text-align: center;
+        p {
+            font-size: 3rem;
+        }
+    }
+
+    @media (max-width: 380px){
+        text-align: center;
+        p {
+            font-size: 2.2rem;
+        }
     }
 `;

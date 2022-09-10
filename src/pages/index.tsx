@@ -13,9 +13,9 @@ const Home: NextPage = () => {
         <Cover>
           <Header />
         </Cover>
-        <AppContainer>
+        {/* <AppContainer>
           <About />
-        </AppContainer>
+        </AppContainer> */}
     </>
   )
 }

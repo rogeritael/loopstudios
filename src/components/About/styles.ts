@@ -65,7 +65,7 @@ export const Container = styled.section`
     }
 
     @media (max-width: 720px){
-        margin-top: rem;
+        /* margin-top: rem; */
 
         figure {
             flex-direction: column;
