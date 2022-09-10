@@ -65,7 +65,6 @@ export const Container = styled.section`
     }
 
     @media (max-width: 720px){
-        /* margin-top: rem; */
 
         figure {
             flex-direction: column;
@@ -94,7 +93,7 @@ export const Container = styled.section`
         }
     }
 
-    /* @media (max-width: 540px){
+    @media (max-width: 540px){
         figure {
             width: 100%;
 
@@ -106,5 +105,5 @@ export const Container = styled.section`
                 width: 100%;
             }
         }
-    } */
+    }
 `;
