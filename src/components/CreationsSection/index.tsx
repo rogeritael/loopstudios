@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import { CreationCard } from "../CreationCard";
 import { Container } from "./styles";
 
@@ -6,7 +7,7 @@ export function CreationsSection(){
         <Container>
             <div className="title">
                 <h1>Our creations</h1>
-                <button>See All</button>
+                <Button text="See all"/>
             </div>
             <div className="card-container">
                 <CreationCard 
@@ -42,6 +43,7 @@ export function CreationsSection(){
                     image="/image-fisheye.jpg"
                 />
             </div>
+            <Button text="See all" className="mobile-btn"/>
         </Container>
     )
 }

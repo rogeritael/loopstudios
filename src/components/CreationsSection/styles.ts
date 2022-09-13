@@ -2,36 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     padding: 1rem 0;
-   
 
     div.title {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-
-        h1, button {
-            font-family: 'Josefin Sans', sans-serif;
-            text-transform: uppercase;
-        }
 
         h1 {
             font-size: 2.5rem;
             font-weight: normal;
+            text-transform: uppercase;
+            font-family: 'Josefin Sans', sans-serif;
         }
-
-
-        button {
-            height: 2rem;
-            border: 2px solid #000;
-            padding: 0 1.5rem;
-            background-color: transparent;
-            font-weight: bold;
-
-            &:hover {
-                background-color: #000;
-                color: #fff;
-            }
-        }
+        
     }
 
     .card-container {
@@ -39,5 +21,30 @@ export const Container = styled.section`
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+    }
+
+    button.mobile-btn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 2rem;
+        height: 3.5rem;
+        width: 13rem;
+        font-size: 1.5rem;
+        display: none;
+    }
+
+    @media (max-width: 450px){
+        div.title {
+            display: flex;
+            justify-content: center;
+
+            button {
+                display: none;
+            }
+        }
+
+        button.mobile-btn {
+            display: block;
+        }
     }
 `;

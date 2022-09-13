@@ -17,6 +17,11 @@ export const Container = styled.div<CardProps>`
     background-color: gray;
     position: relative;
 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
     &::after {
         content: '';
         width: 100%;
@@ -34,10 +39,7 @@ export const Container = styled.div<CardProps>`
         color: #fff;
         font-weight: normal;
         font-size: 2rem;
-        position: absolute;
-        left: 40%;
-        transform: translateX(-50%);
-        bottom: 2rem;
+        max-width: 80%;
         z-index: 2;
         transition: 500ms;
     }
@@ -50,5 +52,11 @@ export const Container = styled.div<CardProps>`
         h1 {
             color: var(--very-dark-gray);
         }
+    }
+
+    
+    @media (max-width: 585px){
+        height: 150px;
+        width: 100%;
     }
 `;
