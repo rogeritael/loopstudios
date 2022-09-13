@@ -12,17 +12,20 @@ export const Container = styled.footer`
     .right-footer, .left-footer {
         width: 50%;
         height: 100%;
-        /* border: 1px solid #fff; */
     }
 
     .right-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
         p {
             color: #fff;
         }
     
         .social {
-            height: 4rem;
-            /* border: 1px solid #fff; */
+            height: 2rem;
+            margin-bottom: 1rem;
             color: #fff;
 
             .icon {
@@ -33,20 +36,49 @@ export const Container = styled.footer`
     }
 
     .left-footer {
+        display: flex;
+        flex-direction: column;
+
         .logo {
             width: 10rem;
             height: 2rem;
-            /* border: 1px solid #fff; */
             position: relative;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
 
         ul li {
             display: inline-block;
-            margin: 0 .5rem;
+            margin-right: 1rem;
             
             a {
                 color: #fff;
+            }
+        }
+    }
+
+
+    @media (max-width: 690px){
+        section {
+            flex-direction: column;
+        }
+
+        .left-footer, .right-footer {
+            width: 100%;
+            align-items: center;
+        }
+
+        .left-footer {
+            margin-bottom: 2rem;
+        }
+    }
+
+    @media (max-width: 380px){
+        .left-footer ul {
+            text-align: center;
+
+            li {
+                display: block;
+                margin-bottom: 1rem;
             }
         }
     }
