@@ -28,13 +28,6 @@ export const Container = styled.section`
     @media (max-width: 530px){
         text-align: center;
         p {
-            font-size: 3rem;
-        }
-    }
-
-    @media (max-width: 380px){
-        text-align: center;
-        p {
             font-size: 2.2rem;
         }
     }
