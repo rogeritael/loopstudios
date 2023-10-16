@@ -8,9 +8,9 @@ export function Cover({ children }: {children: React.ReactNode}){
             <AppContainer>
                 {children}
                 <p>
-                    Immersive <br/>
-                    experiences <br/>
-                    that deliver
+                    Proporcionando <br/>
+                    experiências <br/>
+                    Imersivas
                 </p>
             </AppContainer>
         </Container>

@@ -16,10 +16,10 @@ export function About(){
                 </div>
                 <div className="text">
                     <h1>
-                        The leader in interactive VR
+                        O líder em VR interativo
                     </h1>
                     <p>
-                        Founded in 2011, Loopstudios has been producing world-class virtual rality projects for some of the best companies around the globe. Our award-winning creations have transformed business through digital experiences that bind to their brand.
+                        Fundada em 2011, a Loopstudios produz projetos de realidade virtual a nível mundial para algumas das melhores empresas do mundo. Nossas criações premiadas transformaram os negócios por meio de experiências digitais que se vinculam à sua marca.
                     </p>
                 </div>
             </figure>

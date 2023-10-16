@@ -7,7 +7,7 @@ export function CreationsSection(){
         <Container>
             <div className="title">
                 <h1>Our creations</h1>
-                <Button text="See all"/>
+                <Button text="Ver todos"/>
             </div>
             <div className="card-container">
                 <CreationCard 
@@ -43,7 +43,7 @@ export function CreationsSection(){
                     image="/image-fisheye.jpg"
                 />
             </div>
-            <Button text="See all" className="mobile-btn"/>
+            <Button text="Ver todos" className="mobile-btn"/>
         </Container>
     )
 }

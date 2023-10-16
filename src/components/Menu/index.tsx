@@ -4,11 +4,11 @@ import { Container } from "./styles"
 export function Menu(){
     return(
         <Container>
-            <li><Link href="/">About</Link></li>
-            <li><Link href="/">Carrers</Link></li>
-            <li><Link href="/">Events</Link></li>
-            <li><Link href="/">Products</Link></li>
-            <li><Link href="/">Support</Link></li>
+            <li><Link href="/">Sobre</Link></li>
+            <li><Link href="/">Carreira</Link></li>
+            <li><Link href="/">Eventos</Link></li>
+            <li><Link href="/">Produtos</Link></li>
+            <li><Link href="/">Suporte</Link></li>
         </Container>
     )
 }

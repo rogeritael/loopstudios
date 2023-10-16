@@ -20,4 +20,10 @@ export const Container = styled.ul`
     li:hover::before {
         transform: scale(1, 1);
     }
+
+    @media(max-width: 425px){
+        li:hover::before {
+            transform: scale(0, 0);
+        }
+    }
 `;

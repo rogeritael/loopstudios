@@ -31,7 +31,7 @@ export function Footer(){
                         <BsPinterest className="icon"/>
                         <AiOutlineInstagram className="icon"/>
                     </div>
-                    <p>2022 Loopstudios. All rights reserved.</p>
+                    <p>2023 Loopstudios. Todos os direitos reservados.</p>
                 </div>
             </AppContainer>
         </Container>
