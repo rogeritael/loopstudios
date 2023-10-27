@@ -10,8 +10,8 @@ export function About(){
                     <Image
                         src={image}
                         alt="Homem jogando com um VR"
-                        layout="fill"
-                        objectFit="cover"
+                        // layout="fill"
+                        // objectFit="cover"
                     />
                 </div>
                 <div className="text">

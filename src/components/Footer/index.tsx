@@ -16,8 +16,6 @@ export function Footer(){
                 <div className="left-footer">
                     <div className="logo">
                         <Image
-                            layout="fill"
-                            objectFit="contain"
                             src={logoImage}
                             alt="logo"
                         />

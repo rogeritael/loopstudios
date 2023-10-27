@@ -18,8 +18,6 @@ export function Header(){
         <Container isMenuVisible={isMenuVisible}>
             <div className="logo-container">
                 <Image
-                    layout="fill"
-                    objectFit="contain"
                     src={logoImage}
                     alt="logo"
                 />
